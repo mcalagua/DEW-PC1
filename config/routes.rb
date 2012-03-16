@@ -1,4 +1,6 @@
 TdewPc1::Application.routes.draw do
+  resources :rols
+
   resources :usuarios
 
   # The priority is based upon order of creation:
