@@ -11,4 +11,6 @@ u2 = Usuario.create(nombre: "Jesus", apePaterno: "Calagua", apeMaterno:"Patricio
 r1 = Rol.create(descripcion: "Administrador")
 r2 = Rol.create(nombre: "Usuario")
 
-
+u=Usuario.find(1)
+r=Rol.find(1)
+u.rols << r
